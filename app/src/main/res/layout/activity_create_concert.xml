@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateConcert"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_bright"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/genuva"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+
+        />
+    <EditText
+        android:id="@+id/setBandName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginVertical="15dp"
+        android:hint="Band Name"
+        android:maxLength="15"
+
+        />
+    <EditText
+        android:id="@+id/setBandDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginVertical="15dp"
+        android:inputType="date"
+        android:maxLength="10"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_a_location"
+        android:layout_marginHorizontal="35dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_marginVertical="15dp"
+        />
+
+
+    <RadioGroup
+        android:id="@+id/location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="35dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+        <RadioButton
+            android:id="@+id/chooseSakia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sakia"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Opera"
+            android:id="@+id/chooseOpera"
+            android:checked="true"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose a room:"
+        android:textColor="#fff"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginVertical="15dp"
+        android:textSize="20sp"
+        
+        />
+    <RadioGroup
+        android:id="@+id/room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="35dp"
+        android:weightSum="4"
+        android:orientation="horizontal"
+
+        >
+        <RadioButton
+            android:checked="true"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1"
+            android:textSize="20sp"
+            android:id="@+id/room1"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:textSize="20sp"
+            android:id="@+id/room2"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3"
+            android:textSize="20sp"
+            android:id="@+id/room3"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4"
+            android:textSize="20sp"
+            android:id="@+id/room4"
+            />
+        
+    </RadioGroup>
+    <Button
+        android:id="@+id/setBandImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_an_image"
+        android:textColor="#fff"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginVertical="25dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button2"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginHorizontal="35dp"
+        android:background="@android:color/holo_red_light"
+        android:id="@+id/bandImage"
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button2"
+        android:layout_marginVertical="25dp"
+        />
+
+
+
+
+</LinearLayout>

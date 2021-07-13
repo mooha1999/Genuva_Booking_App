@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "786479011425",
+    "firebase_url": "https://weesofirebase.firebaseio.com",
+    "project_id": "weesofirebase",
+    "storage_bucket": "weesofirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786479011425:android:bd6c211728b9cff600bc20",
+        "android_client_info": {
+          "package_name": "com.example.weesofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786479011425-q2be74r3v6t4qdoia0vajn73blki804f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.weesofirebase",
+            "certificate_hash": "1fd0cfffe39554bb0ff27aee5d850462acfca974"
+          }
+        },
+        {
+          "client_id": "786479011425-krqnjgunil38m6dng2c2dhq6scdlnfon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_NZkhyzlBgbLzOCQAEx9hL9F_1mKep3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786479011425-krqnjgunil38m6dng2c2dhq6scdlnfon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
